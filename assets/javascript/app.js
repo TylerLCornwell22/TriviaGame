@@ -55,7 +55,7 @@ $(document).ready(function () {
     function loadQandA() {
         answered = false; 
         timeRemaining = 15;
-        interVal = setInterval(timer, 500);
+        interVal = setInterval(timer, 1000);
         if (answered === false) {
             timer();
         }
